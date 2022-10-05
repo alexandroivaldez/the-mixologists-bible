@@ -66,6 +66,8 @@ class App extends Component {
       </div>);
         cardList.push(temp);
       }
+    } else {
+      console.log("Error");
     }
     return (
       <div className="App">
